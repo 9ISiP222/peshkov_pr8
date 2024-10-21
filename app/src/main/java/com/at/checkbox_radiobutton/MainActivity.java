@@ -58,12 +58,12 @@ public class MainActivity extends AppCompatActivity {
 
         TextView textView = findViewById(R.id.textView);
         if (checkBox.isChecked()) {
-            checkBox.setBackgroundColor(android.R.color.black);
+            checkBox.setBackgroundResource(android.R.color.black);
             textView.setText("Включено");
             checkBox.setText("Выключить");
 
         } else {
-            checkBox.setBackgroundColor(android.R.color.white);
+            checkBox.setBackgroundResource(android.R.color.white);
             textView.setText("Выключено");
             checkBox.setText("Включить");
 
